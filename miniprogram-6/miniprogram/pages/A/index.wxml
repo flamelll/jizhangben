@@ -1,0 +1,16 @@
+<!--pages/A/index.wxml-->
+<view class="con">
+<picker mode="date" bindchange="dateChange" class="datePicker">
+<view>请选择日期：{{date}}</view>
+</picker>
+<!-- <input data-type='date' bindinput="inputChange" value="{{date}}" class="textbox" placeholder="请输入日期"></input> -->
+<radio-group class="radio-group" bindchange="typeChange">
+<radio class="radio" wx:for-items="{{type1}}" wx:key="name" value="{{item.name}}" checked="{{item.checked}}">
+<text>{{item.value}}</text>
+</radio>
+</radio-group>
+<input data-type='money' bindinput="inputChange" value="{{money}}" class="textbox" placeholder="请输入记账金额"></input>
+<input data-type='style' bindinput="inputChange" value="{{style}}" class="textbox" placeholder="请输入说明"></input>
+<button type="primary" bindtap="tally">确定</button>
+<text style="color:red;">{{error}}</text>
+</view>

@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<!--index.wxml-->
+<!-- <view class="container">
+
+  <button bindtap='bindtest'>test</button>
+</view> -->
+<view class="con">
+<image src="/imges/zhangben.jpg" class="tu"></image>
+<button bindtap='chakan' class="chakan">账单明细</button>
+<button bindtap='jizhang' class="jizhang">记账</button>
+<text class="text">记账是一种习惯！好的生活源于好的记账本!</text>
+<!-- <button bindtap="bindtest">点击</button> -->
+</view>

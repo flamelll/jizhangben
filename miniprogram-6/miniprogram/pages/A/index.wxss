@@ -1,0 +1,22 @@
+/* pages/A/index.wxss */
+.textbox {
+border: 1px solid #ccc;
+padding: 4px 12px;
+margin: 14px 0;
+
+}
+.radio-group {
+  margin: 14px 0;
+}
+.datePicker{
+  margin: 14px 0;
+}
+.con{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "miniprogram/pages/index/index",
+    "miniprogram/pages/B/index",
+    "miniprogram/pages/A/index",
+    "utils/util"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "家庭记账本",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
